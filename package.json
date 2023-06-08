@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "nanoid": "^4.0.2"
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.5.0",
+    "jest": "^29.5.0"
+  },
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
+    "test:001": "npm test -w 001-jun-8th"
+  },
+  "type": "module",
+  "workspaces": [
+    "packages/001-jun-8th"
+  ]
+}
