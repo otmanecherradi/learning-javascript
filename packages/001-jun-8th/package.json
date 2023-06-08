@@ -1,0 +1,12 @@
+{
+  "devDependencies": {},
+  "directories": {
+    "test": "tests"
+  },
+  "name": "001-jun-8th",
+  "private": true,
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "type": "module"
+}
