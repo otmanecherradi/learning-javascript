@@ -4,6 +4,7 @@
 
 - Classes
 - Tests
+- VueJs
 
 ### Extras
 
