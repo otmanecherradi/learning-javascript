@@ -10,11 +10,14 @@
     "test": "NODE_OPTIONS=--experimental-vm-modules jest",
     "test:001": "npm test -w 001-jun-8th",
     "start:002": "npm run dev -w 002-vuejs-demo",
-    "test:002": "npm run test:unit -w 002-vuejs-demo"
+    "test:002": "npm run test:unit -w 002-vuejs-demo",
+    "start:003": "npm run dev -w 003-vuejs-with-api",
+    "test:003": "npm run test:unit -w 003-vuejs-with-api"
   },
   "type": "module",
   "workspaces": [
     "packages/001-jun-8th",
-    "packages/002-vuejs-demo"
+    "packages/002-vuejs-demo",
+    "packages/003-vuejs-with-api"
   ]
 }
